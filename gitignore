@@ -1,0 +1,18 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables file (if any)
+.env
+
+# Other
+*.log
+
+# Ignore large model files
+*.pkl
+*.h5
