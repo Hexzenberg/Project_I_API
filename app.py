@@ -1,9 +1,15 @@
+# Steps to follow:
+# pip install virtualenv
+# virtualenv venv
+# Activate the virtual environment - source venv/bin/activate(MacOS/Linux) or venv\Scripts\activate(Windows)
+# Enter export NEWS_API_KEY='Your_API_Key' to set the API key before running.
+# To run - python app.py
+
 import joblib
 from flask import Flask, request, jsonify
 import requests
 import os
 import gdown
-import numpy as np
 from flask_cors import CORS
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
