@@ -1,8 +1,8 @@
 # Steps to follow:
 # pip install virtualenv
 # virtualenv venv
-# Activate the virtual environment - source venv/bin/activate(MacOS/Linux) or venv\Scripts\activate(Windows)
-# Enter export NEWS_API_KEY='Your_API_Key' to set the API key before running.
+# Activate the virtual environment - source venv/bin/activate(macOS/Linux) or venv\Scripts\activate(Windows).
+# Enter export NEWS_API_KEY='Your_API_Key'(macOS/Linux) or set NEWS_API_KEY='Your_API_Key'(Windows) to set the API key before running.
 # To run - python app.py
 
 import joblib
